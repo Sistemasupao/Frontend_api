@@ -1,79 +1,88 @@
+<div class="header">
+  <h1>FitMindSet</h1>
+</div>
+
 <div class="container">
-    <div class="sidebar">
-      <div class="profile">
-        <div class="avatar">
-          <img src="https://via.placeholder.com/100" alt="Avatar">
-        </div>
-        <h2>Juan Pérez</h2>
-        <p>juan.perezexample.com</p>
+  <div class="sidebar">
+    <div class="profile">
+      <div class="avatar">
+        <img src="https://via.placeholder.com/100" alt="Avatar">
       </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Perfil</a></li>
-          <li><a href="#">Metas de Salud</a></li>
-          <li><a href="#">Notificaciones</a></li>
-          <li><a href="#">Reportes</a></li>
-          <li><a href="#">Gráficos</a></li>
-          <li><a href="#">Pagos</a></li>
-          <li><a href="#">Cerrar Sesión</a></li>
-        </ul>
-      </nav>
+      <h2 style="color: #2AA52E;">Juan Pérez</h2>
+      <p>juan.perezexample.com</p>
     </div>
-  
-    <div class="main-content">
-      <h1>Perfil del Usuario</h1>
-      <form class="user-form">
-        <div class="form-group">
-          <label for="firstName">Nombre</label>
-          <input type="text" id="firstName" value="Juan">
-        </div>
-        <div class="form-group">
-          <label for="lastName">Apellidos</label>
-          <input type="text" id="lastName" value="Pérez">
-        </div>
-        <div class="form-group">
-          <label for="email">Correo Electrónico</label>
-          <input type="email" id="email" value="juan.perez@example.com">
-        </div>
-        <div class="form-group">
-          <label for="phone">Teléfono</label>
-          <input type="tel" id="phone" value="123-456-7890">
-        </div>
-        <div class="form-group">
-          <label for="gender">Género</label>
-          <div>
-            <input type="radio" id="male" name="gender" value="male" checked>
-            <label for="male">Masculino</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Femenino</label>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Otro</label>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="dob">Fecha de Nacimiento</label>
-          <input type="date" id="dob" value="1990-01-01">
-        </div>
-        <div class="form-buttons">
-          <button type="submit" class="save-btn">Guardar Cambios</button>
-          <button type="button" class="delete-btn">Eliminar Perfil</button>
-        </div>
-      </form>
-  
-      <h2>Metas de Salud</h2>
-      <div class="health-goals">
-        <div class="goal">
-          <p>Realizar ejercicio cardiovascular al menos 30 minutos, 3 veces por semana.</p>
-          <button>Editar</button>
-        </div>
-        <div class="goal">
-          <p>Consumir al menos 5 porciones de frutas y verduras al día.</p>
-          <button>Editar</button>
-        </div>
-        <div class="goal">
-          <p>Practicar técnicas de manejo del estrés, como meditación o yoga, 2 veces por semana.</p>
-          <button>Editar</button>
+    <nav class="menu">
+      <ul>
+        <h2 style="color: #2AA52E;">Navegación</h2>
+        <li><a href="/sistema">Perfil</a></li>
+        <li><a href="#">Metas de Salud</a></li>
+        <li><a href="/notificaciones">Notificaciones</a></li>
+        <li><a href="#">Reportes</a></li>
+        <li><a href="#">Gráficos</a></li>
+        <li><a href="#">Pagos</a></li>
+        <li><a href="/login">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main-content">
+    <h1>Perfil del Usuario</h1>
+    <form class="user-form">
+      <div class="form-group">
+        <label for="firstName">Nombre</label>
+        <input type="text" id="firstName" value="Juan">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Apellidos</label>
+        <input type="text" id="lastName" value="Pérez">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" value="juan.perez@example.com">
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="pas" id="password" value="·········">
+      </div>
+      <div class="form-group">
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" value="123-456-7890">
+      </div>
+      <div class="form-group">
+        <label for="dob">Fecha de Nacimiento</label>
+        <input type="date" id="dob" value="1990-01-01">
+      </div>
+      <div class="form-group">
+        <label for="gender">Género</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="male" checked>
+          <label for="male">Masculino</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Femenino</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Otro</label>
         </div>
       </div>
+      <div class="form-buttons">
+        <button type="submit" class="save-btn">Guardar Cambios</button>
+        <button type="button" class="delete-btn">Eliminar Perfil</button>
+      </div>
+    </form>
+
+    <h2 style="color: #2AA52E;">Metas de Salud</h2>
+    <div class="health-goals">
+      <div class="goal">
+        <p>Realizar ejercicio cardiovascular al menos 30 minutos, 3 veces por semana.</p>
+        <button>Editar</button>
+      </div>
+      <div class="goal">
+        <p>Consumir al menos 5 porciones de frutas y verduras al día.</p>
+        <button>Editar</button>
+      </div>
+      <div class="goal">
+        <p>Practicar técnicas de manejo del estrés, como meditación o yoga, 2 veces por semana.</p>
+        <button>Editar</button>
+      </div>
     </div>
-  </div>    
+  </div>
+</div>

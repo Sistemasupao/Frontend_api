@@ -16,6 +16,6 @@ export class LoginComponent {
     // Aquí podrías agregar lógica de autenticación
 
     // Redirigir al perfil de usuario
-    this.router.navigate(['/userprofile']);
+    this.router.navigate(['/sistema']);
   }
 }
