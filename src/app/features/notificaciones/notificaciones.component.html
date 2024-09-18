@@ -1,1 +1,66 @@
-<p>notificaciones works!</p>
+<div class="dashboard-container">
+    <!-- Sidebar izquierda -->
+    <div class="sidebar">
+      <h2>FitMindSet</h2>
+      <ul>
+        <li><a href="/sistema">Mi Perfil</a></li>
+        <li><a href="#">Metas de Salud</a></li>
+        <li><a href="/userprofile">Configuraciones</a></li>
+        <li><a href="#">Reportes</a></li>
+        <li><a href="#">Gráficos</a></li>
+        <li><a href="#">Pagos y Suscripciones</a></li>
+        <li><a href="/login">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  
+    <!-- Contenido principal -->
+    <div class="main-content">
+      <h2 style="color: #2AA52E;">Configuración de Notificaciones</h2>
+      <div class="notification-settings">
+        <h3>Tipos de Notificaciones</h3>
+        <div class="notification-options">
+          <label>
+            <input type="checkbox" /> Notificaciones por Email
+          </label>
+          <label>
+            <input type="checkbox" /> Notificaciones por SMS
+          </label>
+          <label>
+            <input type="checkbox" /> Notificación Push
+          </label>
+        </div>
+  
+        <h3>Frecuencia de Notificaciones</h3>
+        <div class="notification-frequency">
+          <div>
+            <label for="emailFrequency">Frecuencia de Email</label>
+            <select id="emailFrequency">
+              <option value="diaria">Diaria</option>
+              <option value="semanal">Semanal</option>
+              <option value="mensual">Mensual</option>
+            </select>
+          </div>
+          <div>
+            <label for="smsFrequency">Frecuencia de SMS</label>
+            <select id="smsFrequency">
+              <option value="diaria">Diaria</option>
+              <option value="semanal">Semanal</option>
+              <option value="mensual">Mensual</option>
+            </select>
+          </div>
+          <div>
+            <label for="pushFrequency">Frecuencia de Push</label>
+            <select id="pushFrequency">
+              <option value="diaria">Diaria</option>
+              <option value="semanal">Semanal</option>
+              <option value="mensual">Mensual</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="button-container">
+          <button class="save-btn">Guardar Cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
